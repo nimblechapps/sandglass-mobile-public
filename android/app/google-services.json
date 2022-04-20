@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "573759514661",
+    "project_id": "sandglass-54031",
+    "storage_bucket": "sandglass-54031.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573759514661:android:cd46a7c0133804a92377cc",
+        "android_client_info": {
+          "package_name": "com.sandglassapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573759514661-2bruik4id8568rirjp2agt4g2bd1mrhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandglassapp",
+            "certificate_hash": "997e01ce21e985a6780ba33976b9526fbae4daca"
+          }
+        },
+        {
+          "client_id": "573759514661-vj51n8fu0jstnrllfsp73k82pc6q11eg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandglassapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "573759514661-5hhthev6nlvihno4nf6pli9cpfifjcm6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2JjxUvEvll2AZU03sNkFE-jIzKzJ8Akk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573759514661-5hhthev6nlvihno4nf6pli9cpfifjcm6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "573759514661-gdres04hp23jkishohl4166l55eh08o8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sandglassapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

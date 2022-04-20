@@ -1,0 +1,176 @@
+import { StyleSheet } from "react-native";
+import { Color, Font } from "../../../utils/theme";
+
+const styles = StyleSheet.create({
+  main: {
+    flex: 1,
+    backgroundColor: Color.WHITE,
+    paddingHorizontal: 16,
+  },
+  cancelTitle: {
+    paddingHorizontal: 14,
+    paddingVertical: 2,
+    color: Color.GREY_700,
+    fontFamily: Font.SFPROTEXTREGULAR,
+    fontSize: Font.SIZE_14,
+    lineHeight: 20,
+  },
+  craftRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    borderBottomColor: Color.GREY_200,
+    borderBottomWidth: 1,
+    paddingVertical: 14,
+  },
+  craftModal: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  title: {
+    fontFamily: Font.SFPROTEXTMEDIUM,
+    fontSize: Font.SIZE_14,
+    lineHeight: 20,
+    color: Color.GREY_700,
+  },
+  value: {
+    fontFamily: Font.SFPROTEXTMEDIUM,
+    fontSize: Font.SIZE_14,
+    lineHeight: 20,
+    color: Color.GREY_600,
+  },
+  rightIconStyle: {
+    marginLeft: 8,
+    color: Color.BLUE_500,
+    fontSize: Font.SIZE_16,
+  },
+  modalView: {
+    marginTop: "auto",
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    backgroundColor: Color.WHITE,
+    ...Platform.select({
+      ios: {
+        shadowColor: "#19446B",
+        shadowOffset: {
+          width: 0,
+          height: 6,
+        },
+        shadowOpacity: 0.08,
+        shadowRadius: 24,
+      },
+      android: {
+        elevation: 3,
+      },
+    }),
+  },
+  line: {
+    marginVertical: 8,
+    width: 92,
+    height: 4,
+    borderRadius: 2,
+    backgroundColor: Color.GREY_300,
+    alignSelf: "center",
+  },
+  delayStartText: {
+    marginTop: 4,
+    paddingHorizontal: 16,
+    marginBottom: 29,
+    fontFamily: Font.SFPROTEXTSEMIBOLD,
+    fontSize: Font.SIZE_18,
+    color: Color.GREY_700,
+  },
+  listText: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    paddingVertical: 13,
+    borderBottomWidth: 1,
+    borderBottomColor: Color.GREY_200,
+  },
+  itemText: {
+    fontFamily: Font.SFPROTEXTMEDIUM,
+    fontSize: Font.SIZE_14,
+    lineHeight: 20,
+  },
+  checkIconStyle: {
+    fontSize: Font.SIZE_24,
+    color: Color.BLUE_500,
+  },
+  buttonTitle: {
+    fontFamily: Font.SFPROTEXTMEDIUM,
+    fontSize: Font.SIZE_14,
+    lineHeight: 20,
+    color: Color.GREY_700,
+  },
+  alertModalView: {
+    width: 270,
+    borderRadius: 14,
+    backgroundColor: "#f2f2f2cc",
+    ...Platform.select({
+      ios: {
+        shadowColor: "#003362",
+        shadowOffset: {
+          width: 0,
+          height: 3,
+        },
+        shadowOpacity: 0.06,
+        shadowRadius: 6,
+      },
+      android: {
+        elevation: 3,
+      },
+    }),
+  },
+  alertInfo: {
+    backgroundColor: "#f2f2f2cc",
+    paddingHorizontal: 15,
+    paddingVertical: 20,
+  },
+  alertTitle: {
+    fontFamily: Font.SFPROTEXTSEMIBOLD,
+    fontSize: Font.SIZE_17,
+    lineHeight: 22,
+    color: Color.BLACK,
+    textAlign: "center",
+  },
+  alertSubtitle: {
+    fontFamily: Font.SFPROTEXTSEMIBOLD,
+    marginTop: 2,
+    fontSize: Font.SIZE_12,
+    lineHeight: 18,
+    color: Color.BLACK,
+    textAlign: "center",
+    marginBottom: 16,
+  },
+  textInput: {
+    paddingHorizontal: 5,
+    paddingVertical: 3,
+    backgroundColor: Color.WHITE,
+    fontSize: Font.SIZE_14,
+    borderRadius: 5,
+    borderWidth: 0.5,
+    borderColor: "#3c3c434d",
+    marginBottom: 20,
+    marginTop: 16,
+  },
+  buttonGroup: {
+    flexDirection: "row",
+    borderTopColor: "#3c3c434a",
+    borderTopWidth: 1,
+    width: "100%",
+  },
+  actionButton: {
+    borderRadius: 0,
+    width: "50%",
+    backgroundColor: "#f2f2f2cc",
+    color: "#007AFF",
+    borderRightColor: "#3c3c434a",
+    borderRightWidth: 1,
+  },
+  modelButtonTitle: {
+    color: Color.BLUE,
+  },
+});
+
+export default styles;

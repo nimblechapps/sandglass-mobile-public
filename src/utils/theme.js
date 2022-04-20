@@ -1,0 +1,56 @@
+export const Color = {
+  TRANSPARENT: "transparent",
+  WHITE: "#ffffff",
+  BLUE_900: "#001431",
+  BLUE_800: "#003362",
+  BLUE_700: "#005AAD",
+  BLUE_600: "#006BCD",
+  BLUE_500: "#008EF5",
+  BLUE_400: "#33B2F7",
+  BLUE_300: "#66C5F9",
+  BLUE_200: "#99D9FB",
+  BLUE_100: "#CCECFD",
+  BLUE: "#007AFF",
+
+  GREY_900: "#1F2126",
+  GREY_800: "#2F3139",
+  GREY_700: "#3F424C",
+  GREY_600: "#5F626C",
+  GREY_500: "#8D9199",
+  GREY_400: "#B1B3BB",
+  GREY_300: "#D1D3D8",
+  GREY_200: "#E8E9EC",
+  GREY_100: "#F2F3F6",
+  BLACK: "#000000",
+
+  RED_100: "#FF7081",
+  RED_200: "#F62B50",
+  RED_300: "#900011",
+
+  YELLOW_100: "#FFD342",
+  YELLOW_200: "#FFCA62",
+  YELLOW_300: "#C07F00",
+
+  GREEN_100: "#70F3AC",
+  GREEN_200: "#00D26D",
+  GREEN_300: "#007C57",
+};
+
+export const Font = {
+  SFPROTEXTREGULAR: "SFProText-Regular",
+  SFPROTEXTMEDIUM: "SFProText-Medium",
+  SFPROTEXTSEMIBOLD: "SFProText-Semibold",
+  SFPROTEXTBOLD: "SFProText-Bold",
+
+  SIZE_10: 10,
+  SIZE_12: 12,
+  SIZE_14: 14,
+  SIZE_16: 16,
+  SIZE_17: 17,
+  SIZE_18: 18,
+  SIZE_22: 22,
+  SIZE_24: 24,
+  SIZE_28: 28,
+  SIZE_32: 32,
+  SIZE_36: 36,
+};
